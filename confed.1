@@ -1,0 +1,24 @@
+.TH confed 1 "May 9, 2017" "" "v0.0"
+.SH confed
+confed - a configuration file editor
+.SH SYNOPSIS
+confed [options]* inputfile
+.SH DESCRIPTION
+confed is tool to make it easier for other tools to
+inspect and edit configuration files that were
+written in a variety of popular syntaxes.
+In many applications, it functions as a kind of specialized sed,
+one that understands common configuration file formats.
+In more complex applications, it can act as a tokenizer,
+allowing line-oriented code
+(such as shell scripts)
+to more easily operate on non-line-oriented data files.
+.SH OPTIONS
+.TP
+.BR \-i
+Edit the input file in-place. An input file named "foo" will be
+renamed to "foo.001", after any existing "foo.001" is renamed to
+"foo.002", and so on.
+.SH EXAMPLES
+
+

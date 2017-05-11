@@ -1,0 +1,15 @@
+BIND
+=======
+
+The manual for (one version of) BIND is here:
+
+https://ftp.isc.org/isc/bind9/cur/9.10/doc/arm/Bv9ARM.pdf
+
+Comments are typical: //, /*, #
+
+Quote:
+A BIND 9 configuration consists of statements and comments.   Statements end with a semi-
+colon.   Statements  and  comments  are  the  only  elements  that  can  appear  without  enclosing
+braces.   Many statements contain a block of sub-statements,  which are also terminated with
+a semicolon.
+
